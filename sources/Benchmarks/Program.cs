@@ -8,7 +8,8 @@
         {
             var competitionSwitch = new BenchmarkCompetitionSwitch(new[]
                                                                    {
-                                                                       typeof (Plinq)
+                                                                       typeof (Plinq),
+                                                                       typeof (Tpl)
                                                                    });
             competitionSwitch.Run(args);
         }

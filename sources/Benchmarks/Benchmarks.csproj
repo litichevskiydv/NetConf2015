@@ -54,6 +54,7 @@
     <Compile Include="Plinq.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tpl.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
