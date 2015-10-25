@@ -27,7 +27,7 @@
         }
 
         [Benchmark]
-        public int[] ProcessingWitDegreeOfParallelism()
+        public int[] ProcessingWithDegreeOfParallelism()
         {
             return _tasks.AsParallel()
                 .WithDegreeOfParallelism((int)(Environment.ProcessorCount * 1.5d))
@@ -40,7 +40,7 @@
         }
 
         [Benchmark]
-        public int[] ProcessingWitDynamicPartitioner()
+        public int[] ProcessingWithDynamicPartitioner()
         {
             return Partitioner.Create(_tasks, true).AsParallel()
                 .Select(x =>
@@ -52,7 +52,7 @@
         }
 
         [Benchmark]
-        public int[] ProcessingWitDynamicPartitionerAndDegreeOfParallelism()
+        public int[] ProcessingWithDynamicPartitionerAndDegreeOfParallelism()
         {
             return Partitioner.Create(_tasks, true).AsParallel()
                 .WithDegreeOfParallelism((int)(Environment.ProcessorCount * 1.5d))
