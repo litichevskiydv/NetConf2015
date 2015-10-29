@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Async", "Async", "{D758876B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunWithoutAwait", "sources\Async\RunWithoutAwait\RunWithoutAwait.csproj", "{69FC8B2B-4660-41AF-8AD6-B59E2F79ED8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCancellation", "sources\Async\TaskCancellation\TaskCancellation.csproj", "{B1A97CD5-7275-4932-A11C-DCA6760C99FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,11 +25,16 @@ Global
 		{69FC8B2B-4660-41AF-8AD6-B59E2F79ED8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69FC8B2B-4660-41AF-8AD6-B59E2F79ED8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69FC8B2B-4660-41AF-8AD6-B59E2F79ED8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1A97CD5-7275-4932-A11C-DCA6760C99FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A97CD5-7275-4932-A11C-DCA6760C99FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A97CD5-7275-4932-A11C-DCA6760C99FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A97CD5-7275-4932-A11C-DCA6760C99FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{69FC8B2B-4660-41AF-8AD6-B59E2F79ED8E} = {D758876B-BBBC-4A30-BA4D-4108E61E0FDA}
+		{B1A97CD5-7275-4932-A11C-DCA6760C99FD} = {D758876B-BBBC-4A30-BA4D-4108E61E0FDA}
 	EndGlobalSection
 EndGlobal
