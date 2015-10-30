@@ -26,6 +26,7 @@
                                                       }),
                 TaskContinuationOptions.OnlyOnFaulted);
             Console.WriteLine("Something happening");
+
             Console.ReadKey();
         }
     }
