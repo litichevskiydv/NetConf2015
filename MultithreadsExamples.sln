@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitSeveralTasks", "sources
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandleCancellationRequest", "sources\Async\HandleCancellationRequest\HandleCancellationRequest.csproj", "{DB2C5FBC-6FE4-459F-87E9-CA280A87814E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plinq", "Plinq", "{19608538-9D1B-4D71-AC25-146EE291E887}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequentialQueries", "sources\Plinq\SequentialQueries\SequentialQueries.csproj", "{4C7CC0A0-4852-4C49-9743-F142E1206727}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,10 @@ Global
 		{DB2C5FBC-6FE4-459F-87E9-CA280A87814E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB2C5FBC-6FE4-459F-87E9-CA280A87814E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB2C5FBC-6FE4-459F-87E9-CA280A87814E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C7CC0A0-4852-4C49-9743-F142E1206727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C7CC0A0-4852-4C49-9743-F142E1206727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C7CC0A0-4852-4C49-9743-F142E1206727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C7CC0A0-4852-4C49-9743-F142E1206727}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,5 +58,6 @@ Global
 		{B1A97CD5-7275-4932-A11C-DCA6760C99FD} = {D758876B-BBBC-4A30-BA4D-4108E61E0FDA}
 		{9B2CE933-8204-4C8C-A880-9A0F3DF23F5D} = {D758876B-BBBC-4A30-BA4D-4108E61E0FDA}
 		{DB2C5FBC-6FE4-459F-87E9-CA280A87814E} = {D758876B-BBBC-4A30-BA4D-4108E61E0FDA}
+		{4C7CC0A0-4852-4C49-9743-F142E1206727} = {19608538-9D1B-4D71-AC25-146EE291E887}
 	EndGlobalSection
 EndGlobal
