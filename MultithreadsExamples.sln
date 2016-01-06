@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "sources\Benchmarks\Benchmarks.csproj", "{98A1F4FE-4DBF-44D8-8148-FCA6897FB8FA}"
 EndProject
@@ -18,6 +18,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plinq", "Plinq", "{19608538-9D1B-4D71-AC25-146EE291E887}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequentialQueries", "sources\Plinq\SequentialQueries\SequentialQueries.csproj", "{4C7CC0A0-4852-4C49-9743-F142E1206727}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rx", "Rx", "{BED724D8-090F-44BE-95CE-99F0ABE487E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelConsuming", "sources\Rx\ParallelConsuming\ParallelConsuming.csproj", "{DB7B8284-8BCC-4C4F-9B55-1635056FF54A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,10 @@ Global
 		{4C7CC0A0-4852-4C49-9743-F142E1206727}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C7CC0A0-4852-4C49-9743-F142E1206727}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C7CC0A0-4852-4C49-9743-F142E1206727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB7B8284-8BCC-4C4F-9B55-1635056FF54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB7B8284-8BCC-4C4F-9B55-1635056FF54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB7B8284-8BCC-4C4F-9B55-1635056FF54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB7B8284-8BCC-4C4F-9B55-1635056FF54A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,5 +67,6 @@ Global
 		{9B2CE933-8204-4C8C-A880-9A0F3DF23F5D} = {D758876B-BBBC-4A30-BA4D-4108E61E0FDA}
 		{DB2C5FBC-6FE4-459F-87E9-CA280A87814E} = {D758876B-BBBC-4A30-BA4D-4108E61E0FDA}
 		{4C7CC0A0-4852-4C49-9743-F142E1206727} = {19608538-9D1B-4D71-AC25-146EE291E887}
+		{DB7B8284-8BCC-4C4F-9B55-1635056FF54A} = {BED724D8-090F-44BE-95CE-99F0ABE487E9}
 	EndGlobalSection
 EndGlobal
